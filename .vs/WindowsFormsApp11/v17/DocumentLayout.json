@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|WindowsFormsApp11.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|WindowsFormsApp11.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|App.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|App.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B2BF354-80ED-4209-A53B-3A8E8DF951AB}|WindowsFormsApp1\\Install.csproj|solutionrelative:windowsformsapp1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AppProgram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\install\\installform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\appform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|App.csproj|d:\\knu\\2\u043A\u0443\u0440\u0441-\u0456\u0456\u0441\u0435\u043C\\\u043E\u043E\u043F\\windowsformsapp11\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29FF9B8F-8CB4-46FD-89FE-09D18515A713}|App.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,108 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T19:58:36.743Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InstallForm.Designer.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.Designer.cs",
-              "RelativeDocumentMoniker": "..\\Install\\InstallForm.Designer.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.Designer.cs",
-              "RelativeToolTip": "..\\Install\\InstallForm.Designer.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwD0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:46:15.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InstallForm.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.cs",
-              "RelativeDocumentMoniker": "..\\Install\\InstallForm.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.cs",
-              "RelativeToolTip": "..\\Install\\InstallForm.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAYwFIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:45:04.484Z",
+              "WhenOpened": "2025-05-16T20:42:02.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppForm.Designer.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.Designer.cs",
-              "RelativeDocumentMoniker": "AppForm.Designer.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.Designer.cs",
-              "RelativeToolTip": "AppForm.Designer.cs",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:44:43.059Z"
+              "WhenOpened": "2025-05-16T20:41:54.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:38:36.539Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppForm.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.cs",
-              "RelativeDocumentMoniker": "AppForm.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.cs",
-              "RelativeToolTip": "AppForm.cs",
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:43:54.247Z"
+              "WhenOpened": "2025-05-16T20:22:30.807Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstallProgram.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallProgram.cs",
-              "RelativeDocumentMoniker": "..\\Install\\InstallProgram.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallProgram.cs",
-              "RelativeToolTip": "..\\Install\\InstallProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.Designer.cs",
+              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\WindowsFormsApp1\\Form1.Designer.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA5wB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:40:44.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppProgram.cs",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppProgram.cs",
-              "RelativeDocumentMoniker": "AppProgram.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppProgram.cs",
-              "RelativeToolTip": "AppProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:40:20.998Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "InstallForm.cs [Design]",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.cs",
-              "RelativeDocumentMoniker": "..\\Install\\InstallForm.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\Install\\InstallForm.cs [Design]",
-              "RelativeToolTip": "..\\Install\\InstallForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:40:00.256Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AppForm.cs [Design]",
-              "DocumentMoniker": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.cs",
-              "RelativeDocumentMoniker": "AppForm.cs",
-              "ToolTip": "D:\\KNU\\2\u043A\u0443\u0440\u0441-\u0406\u0406\u0441\u0435\u043C\\\u041E\u041E\u041F\\WindowsFormsApp11\\AppForm.cs [Design]",
-              "RelativeToolTip": "AppForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T18:38:48.314Z"
+              "WhenOpened": "2025-05-16T20:21:53.252Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -36,10 +36,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(268, 12);
+            this.textBox1.Location = new System.Drawing.Point(269, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 200);
+            this.textBox1.Size = new System.Drawing.Size(243, 200);
             this.textBox1.TabIndex = 1;
             // 
             // dataGridView1
@@ -47,15 +47,15 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 218);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(456, 150);
+            this.dataGridView1.RowHeadersWidth = 75;
+            this.dataGridView1.Size = new System.Drawing.Size(501, 150);
             this.dataGridView1.TabIndex = 2;
             // 
             // btnLoadImage
             // 
             this.btnLoadImage.Location = new System.Drawing.Point(12, 374);
             this.btnLoadImage.Name = "btnLoadImage";
-            this.btnLoadImage.Size = new System.Drawing.Size(128, 30);
+            this.btnLoadImage.Size = new System.Drawing.Size(175, 30);
             this.btnLoadImage.TabIndex = 3;
             this.btnLoadImage.Text = "Завантажити малюнок";
             this.btnLoadImage.UseVisualStyleBackColor = true;
@@ -63,9 +63,9 @@
             // 
             // btnLoadText
             // 
-            this.btnLoadText.Location = new System.Drawing.Point(146, 374);
+            this.btnLoadText.Location = new System.Drawing.Point(189, 374);
             this.btnLoadText.Name = "btnLoadText";
-            this.btnLoadText.Size = new System.Drawing.Size(128, 30);
+            this.btnLoadText.Size = new System.Drawing.Size(152, 30);
             this.btnLoadText.TabIndex = 4;
             this.btnLoadText.Text = "Завантажити текст";
             this.btnLoadText.UseVisualStyleBackColor = true;
@@ -73,9 +73,9 @@
             // 
             // btnLoadTable
             // 
-            this.btnLoadTable.Location = new System.Drawing.Point(280, 374);
+            this.btnLoadTable.Location = new System.Drawing.Point(344, 374);
             this.btnLoadTable.Name = "btnLoadTable";
-            this.btnLoadTable.Size = new System.Drawing.Size(138, 30);
+            this.btnLoadTable.Size = new System.Drawing.Size(171, 30);
             this.btnLoadTable.TabIndex = 5;
             this.btnLoadTable.Text = "Завантажити таблицю";
             this.btnLoadTable.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(480, 416);
+            this.ClientSize = new System.Drawing.Size(522, 416);
             this.Controls.Add(this.btnLoadTable);
             this.Controls.Add(this.btnLoadText);
             this.Controls.Add(this.btnLoadImage);

@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
                 if (fbd.ShowDialog() == DialogResult.OK)
                 {
                     sourceFolder = fbd.SelectedPath;
-                    lblDistPath.Text = "Source: " + sourceFolder; // Змінено з label1 на lblDistPath
+                    lblDistPath.Text = "Source: " + sourceFolder;
                 }
             }
         }
@@ -37,7 +37,7 @@ namespace WindowsFormsApp1
                 if (fbd.ShowDialog() == DialogResult.OK)
                 {
                     destFolder = fbd.SelectedPath;
-                    lblInstallPath.Text = "Destination: " + destFolder; // Змінено з label2 на lblInstallPath
+                    lblInstallPath.Text = "Destination: " + destFolder;
                 }
             }
         }
@@ -65,17 +65,26 @@ namespace WindowsFormsApp1
                 // Copy files
                 DirectoryCopy(sourceFolder, destFolder, true);
 
+                // Define resource paths
+                string imagePath = Path.Combine(destFolder, "Resources", "Images", "sample.jpg");
+                string textPath = Path.Combine(destFolder, "Resources", "Text", "sample.txt");
+                string tablePath = Path.Combine(destFolder, "Resources", "Tables", "sample.csv");
+
                 // Create install.dat
                 File.WriteAllText(Path.Combine(destFolder, "install.dat"),
                     $"Source: {sourceFolder}\nDestination: {destFolder}");
+
+                // Create config.txt for the AppForm to use
+                File.WriteAllText(Path.Combine(destFolder, "config.txt"),
+                    $"{imagePath}\n{textPath}\n{tablePath}");
 
                 // Write to registry
                 using (RegistryKey key = Registry.CurrentUser.CreateSubKey(REG_PATH))
                 {
                     key.SetValue("InstallPath", destFolder);
-                    key.SetValue("ImagePath", Path.Combine(destFolder, "Resources/Images/sample.jpg"));
-                    key.SetValue("TextPath", Path.Combine(destFolder, "Resources/Text/sample.txt"));
-                    key.SetValue("TablePath", Path.Combine(destFolder, "Resources/Tables/sample.csv"));
+                    key.SetValue("ImagePath", imagePath);
+                    key.SetValue("TextPath", textPath);
+                    key.SetValue("TablePath", tablePath);
                 }
 
                 MessageBox.Show("Installation completed successfully!");
@@ -100,11 +109,22 @@ namespace WindowsFormsApp1
                 string installPath = key.GetValue("InstallPath")?.ToString();
                 if (Directory.Exists(installPath))
                 {
-                    Directory.Delete(installPath, true);
+                    try
+                    {
+                        Directory.Delete(installPath, true);
+                        Registry.CurrentUser.DeleteSubKey(REG_PATH);
+                        MessageBox.Show("Program uninstalled successfully!");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Uninstallation failed: " + ex.Message);
+                    }
                 }
-
-                Registry.CurrentUser.DeleteSubKey(REG_PATH);
-                MessageBox.Show("Program uninstalled successfully!");
+                else
+                {
+                    Registry.CurrentUser.DeleteSubKey(REG_PATH);
+                    MessageBox.Show("Registry entries removed, but installation folder was not found.");
+                }
             }
         }
 
@@ -114,14 +134,20 @@ namespace WindowsFormsApp1
             DirectoryInfo dir = new DirectoryInfo(sourceDir);
             DirectoryInfo[] dirs = dir.GetDirectories();
 
-            Directory.CreateDirectory(destDir);
+            // Create destination directory if it doesn't exist
+            if (!Directory.Exists(destDir))
+            {
+                Directory.CreateDirectory(destDir);
+            }
 
+            // Copy files
             foreach (FileInfo file in dir.GetFiles())
             {
                 string targetPath = Path.Combine(destDir, file.Name);
                 file.CopyTo(targetPath, true);
             }
 
+            // Copy subdirectories
             if (copySubDirs)
             {
                 foreach (DirectoryInfo subDir in dirs)

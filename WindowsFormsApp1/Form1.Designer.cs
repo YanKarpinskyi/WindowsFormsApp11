@@ -29,7 +29,7 @@
             this.btnSelectDist.Name = "btnSelectDist";
             this.btnSelectDist.Size = new System.Drawing.Size(150, 30);
             this.btnSelectDist.TabIndex = 0;
-            this.btnSelectDist.Text = "Обрати дистрибутив";
+            this.btnSelectDist.Text = "Дистрибутив";
             this.btnSelectDist.UseVisualStyleBackColor = true;
             this.btnSelectDist.Click += new System.EventHandler(this.button1_Click);
             // 
