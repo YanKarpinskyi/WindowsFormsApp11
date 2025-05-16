@@ -1,0 +1,9 @@
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe.config
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.exe
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\bin\Debug\WindowsFormsApp11.pdb
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\App.csproj.AssemblyReference.cache
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.Properties.Resources.resources
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\App.csproj.GenerateResource.cache
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\App.csproj.CoreCompileInputs.cache
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.exe
+D:\KNU\2курс-ІІсем\ООП\WindowsFormsApp11\obj\Debug\WindowsFormsApp11.pdb

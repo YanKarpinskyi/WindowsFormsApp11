@@ -1,0 +1,3 @@
+Resources/Images/sample.jpg
+Resources/Text/sample.txt
+Resources/Tables/sample.csv
