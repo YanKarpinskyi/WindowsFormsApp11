@@ -16,12 +16,10 @@ namespace WindowsFormsApp11
             LoadPaths();
         }
 
-        // Load paths from config.txt or registry as fallback
         private void LoadPaths()
         {
             try
             {
-                // First try to read from config.txt in the application directory
                 string configPath = Path.Combine(Application.StartupPath, "config.txt");
                 if (File.Exists(configPath))
                 {
@@ -31,11 +29,10 @@ namespace WindowsFormsApp11
                         imagePath = lines[0];
                         textPath = lines[1];
                         tablePath = lines[2];
-                        return; // Successfully loaded from config.txt
+                        return; 
                     }
                 }
 
-                // If config.txt doesn't exist or is invalid, try reading from install.dat
                 string installDatPath = Path.Combine(Application.StartupPath, "install.dat");
                 if (File.Exists(installDatPath))
                 {
@@ -57,11 +54,10 @@ namespace WindowsFormsApp11
                         imagePath = Path.Combine(destPath, "Resources", "Images", "sample.jpg");
                         textPath = Path.Combine(destPath, "Resources", "Text", "sample.txt");
                         tablePath = Path.Combine(destPath, "Resources", "Tables", "sample.csv");
-                        return; // Successfully generated paths from install.dat
+                        return; 
                     }
                 }
 
-                // As last resort, try reading from registry
                 using (RegistryKey key = Registry.CurrentUser.OpenSubKey(REG_PATH))
                 {
                     if (key != null)
@@ -82,7 +78,6 @@ namespace WindowsFormsApp11
             }
         }
 
-        // Button1: Load Image
         private void btnLoadImage_Click(object sender, EventArgs e)
         {
             try
@@ -101,7 +96,6 @@ namespace WindowsFormsApp11
             }
         }
 
-        // Button2: Load Text
         private void btnLoadText_Click(object sender, EventArgs e)
         {
             try
@@ -120,7 +114,6 @@ namespace WindowsFormsApp11
             }
         }
 
-        // Button3: Load Table
         private void btnLoadTable_Click(object sender, EventArgs e)
         {
             try
