@@ -16,7 +16,6 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        // Button1: Select Source Folder
         private void button1_Click(object sender, EventArgs e)
         {
             using (FolderBrowserDialog fbd = new FolderBrowserDialog())
@@ -29,7 +28,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Button2: Select Destination Folder
         private void button2_Click(object sender, EventArgs e)
         {
             using (FolderBrowserDialog fbd = new FolderBrowserDialog())
@@ -42,7 +40,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Button3: Install
         private void button3_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(sourceFolder) || string.IsNullOrEmpty(destFolder))
@@ -62,23 +59,18 @@ namespace WindowsFormsApp1
 
             try
             {
-                // Copy files
                 DirectoryCopy(sourceFolder, destFolder, true);
 
-                // Define resource paths
                 string imagePath = Path.Combine(destFolder, "Resources", "Images", "sample.jpg");
                 string textPath = Path.Combine(destFolder, "Resources", "Text", "sample.txt");
                 string tablePath = Path.Combine(destFolder, "Resources", "Tables", "sample.csv");
 
-                // Create install.dat
                 File.WriteAllText(Path.Combine(destFolder, "install.dat"),
                     $"Source: {sourceFolder}\nDestination: {destFolder}");
 
-                // Create config.txt for the AppForm to use
                 File.WriteAllText(Path.Combine(destFolder, "config.txt"),
                     $"{imagePath}\n{textPath}\n{tablePath}");
 
-                // Write to registry
                 using (RegistryKey key = Registry.CurrentUser.CreateSubKey(REG_PATH))
                 {
                     key.SetValue("InstallPath", destFolder);
@@ -95,7 +87,6 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Button4: Uninstall
         private void button4_Click(object sender, EventArgs e)
         {
             using (RegistryKey key = Registry.CurrentUser.OpenSubKey(REG_PATH))
@@ -128,26 +119,22 @@ namespace WindowsFormsApp1
             }
         }
 
-        // Helper method to copy directory
         private static void DirectoryCopy(string sourceDir, string destDir, bool copySubDirs)
         {
             DirectoryInfo dir = new DirectoryInfo(sourceDir);
             DirectoryInfo[] dirs = dir.GetDirectories();
 
-            // Create destination directory if it doesn't exist
             if (!Directory.Exists(destDir))
             {
                 Directory.CreateDirectory(destDir);
             }
 
-            // Copy files
             foreach (FileInfo file in dir.GetFiles())
             {
                 string targetPath = Path.Combine(destDir, file.Name);
                 file.CopyTo(targetPath, true);
             }
 
-            // Copy subdirectories
             if (copySubDirs)
             {
                 foreach (DirectoryInfo subDir in dirs)
